@@ -1,0 +1,64 @@
+body {
+    background-color:#FF1C1C;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#logo {
+    padding-bottom: 2em;
+} 
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#DF1818;
+    padding: 4%;
+}
+
+.container img {
+    max-width: 250px;
+    padding-bottom: 4px;
+    
+}
+
+#poke-text {
+    background-color: rgb(219, 219, 214);
+}
+
+#poke-text:hover {
+    background-color: #FFF;
+}
+
+#buscar-poke {
+    color: #FFF;
+    background-color: #2A6FB6;
+}
+
+#buscar-poke:hover {
+    color: #FFF;
+    background-color: rgb(4, 32, 59);
+}
+
+/* #elementos {
+    padding: 2%;
+}
+
+#elementos .elemento {
+    margin: 10px;
+    border: 2px solid #c0c5ce;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    margin: 2%;
+}
+
+#elementos .elemento a {
+     display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+} */
