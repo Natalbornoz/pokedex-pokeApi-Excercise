@@ -64,5 +64,10 @@ body {
 }
 
 #poke-info img {
-    background-color:blue
+    background-color:#FF1C1C;
+    border-radius: 50%;
+}
+
+#bg-info {
+    background-color: #c0c5ce;
 }
