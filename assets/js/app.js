@@ -43,16 +43,26 @@ $(document).ready(function(){
         //     abi = element.abilities;
 
         // Para mostrar en el html
-        $("#poke-info").append(`<img src="https://pokeapi.co/media/img/${num}.png">`);
+        $("#poke-info").append(`
+         <div class="col-lg-6 col-md-6 col-xs-6 search-container text-center">
+            <img src="https://pokeapi.co/media/img/${num}.png">
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6 pokeInfo">
+            <div class="col-lg-12 col-md-12 col-xs-12"><h2>${name}</h2></div>
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6">
+          <p>Habilidad:<br>${abi}</p>
+        </div>
+        `);
         
     }
 
-    // Acá armaremos la estructura que se mostrará en el html, con los datos que se solicitaron con anterioridad
-    let armarTemplate = function (order, name, num, abi) {
-        let t = ('<img src="http://pokeapi.co/media/img/' + num + '.png">' + '<h3>' + name + '</h3><p>' + order + '</p>' +
-            '<h4>Habilidades</h4>' + '<ul class="ability"></ul>');
-        return t;
-    };
+    // // Acá armaremos la estructura que se mostrará en el html, con los datos que se solicitaron con anterioridad
+    // let armarTemplate = function (order, name, num, abi) {
+    //     let t = ('<img src="http://pokeapi.co/media/img/' + num + '.png">' + '<h3>' + name + '</h3><p>' + order + '</p>' +
+    //         '<h4>Habilidades</h4>' + '<ul class="ability"></ul>');
+    //     return t;
+    // };
 });
 
 
